@@ -39,7 +39,7 @@ public class forgotPassword_StepDefs {
 
         System.out.println("expectedText = " + expectedText);
         System.out.println("actualTextfromUI = " + actualTextfromUI);
-        Assert.assertEquals("They are not equal",expectedText,actualTextfromUI);
+        Assert.assertEquals("Alert Message: They are not equal!",expectedText,actualTextfromUI);
 
 
 
